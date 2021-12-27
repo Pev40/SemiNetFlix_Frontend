@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;1,300&display=swap");
+
+$font-family: "Work Sans";
+$heading-font-family: $font-family, cursive;
+
+.v-application {
+  [class*="text-"] {
+    font-family: $font-family, sans-serif !important;
+  }
+  font-family: $font-family, sans-serif !important;
+}
+
+html {
+  overflow-y: auto;
+}
